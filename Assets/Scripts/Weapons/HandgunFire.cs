@@ -45,7 +45,7 @@ public class HandgunFire : MonoBehaviour {
 
         yield return new WaitForSeconds(0.05f);
         muzzleFlash.SetActive(false);
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.15f);
         theGun.GetComponent<Animator>().Play("New State");
         isFiring = false;
     }
