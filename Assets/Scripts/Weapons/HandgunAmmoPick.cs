@@ -13,7 +13,7 @@ public class HandgunAmmoPick : MonoBehaviour {
     {
         fakeAmmoClip.SetActive(false);
         ammoPickupSound.Play();
-        GlobalAmmo.handgunAmmo += 10;
+        GlobalAmmo.handgunAmmo += 15;
         pickUpDisplay.SetActive(false);
         pickUpDisplay.GetComponent<Text>().text = "CLIP OF BULLETS";
         pickUpDisplay.SetActive(true);
